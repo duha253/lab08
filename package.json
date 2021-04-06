@@ -1,21 +1,23 @@
 {
   "name": "lab08",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Number and name of feature: ___1____________________________",
+  "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/duha253/lab08.git"
+    "url": "git+https://github.com/duha253/city_explorer_api.git"
   },
+  "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/duha253/lab08/issues"
+    "url": "https://github.com/duha253/city_explorer_api/issues"
   },
-  "homepage": "https://github.com/duha253/lab08#readme",
+  "homepage": "https://github.com/duha253/city_explorer_api#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
