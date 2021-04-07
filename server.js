@@ -79,7 +79,6 @@ function handelLocationRequest(req, res) {
     res.status(500).send('Sorry, something went wrong ');
   });
 }
-
 //weather function//////////
 // localhost:3000/weather?search_query=amman  //// function to get weather data
 function handelWeatheRequest(req, res) {
@@ -116,7 +115,6 @@ function handelParkRequest(req, res) {
     req.status(500).send('there is no data park');
   });
 }
-
 //////////movies function ///////
 function handleMoviesRequest(req, res) {
   const city = req.query.search_query;
